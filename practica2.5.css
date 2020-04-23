@@ -1,0 +1,29 @@
+.botonTituloSeccion{
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 30px; /*ancho de las barras*/
+	width: 100%;/*lo largo de la barra*/
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 20px; /*tamaño de la letra*/
+	transition: 0.4s;/*tiempo al recargar*/
+}
+
+.active, .botonTituloSeccion:hover{
+	background-color: #ccc;
+}
+.contenidoSeccion{
+	padding-top: 0;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+	text-align: justify;
+	max-width: 100%;/*tamaño de la barra de texto*/
+	margin-left: 20%; /*margen del lado izquierdo*/
+}
+.contenedor{
+	max-width: 70%;
+	margin-left: 15%;
+}

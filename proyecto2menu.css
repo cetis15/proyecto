@@ -1,0 +1,55 @@
+.barra_menus{
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.9);/*aqui se ca,mbia el color y transparecia de la barra*/
+	font-family: sans-serif;
+}
+.barra_menus a{
+	float: left;
+	font-size: 16px;/*aqui se cambia el tamaño de la barra*/
+	color: white;
+	text-align: center;
+	padding: 14px 16px; /*se cambia la sseparacion de cada elemento*/
+	text-decoration:  none;
+}
+.menu_desplegable{
+	float: left;
+	overflow: hidden;
+}
+.menu_desplegable, .boton_desplegable{/*aqui se cambia todos los elementos del menu desplegable*/
+cursor: pointer;
+font-size: 16px;/*el cambio de la barra al desplegarse*/
+border:none;
+outline: none;
+color: white;
+padding: 7px 16px;
+background-color: rgba(0,0,0,0);/*se cambia el color y tranpsarencia*/
+font-family:  inherit;
+margin: 0;
+}
+.barra_menus a:hover, .menu_desplegable:hover, .boton_desplegable:hover{
+	background-color: rgba(200,0,100,0.9);/*cambio de color*/
+}
+.contenido_desplegable{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/*cambio de color y tamaño*/
+	z-index: 1;
+}
+.contenido_desplegable a{
+	float: none;
+	color: black;
+	padding: 12px 16px;/*cambio de tamaño*/
+	text-decoration: none;
+	display: block;
+	text-align: center;/*alineacion del texto*/
+}
+.mostrar{
+	display: block;
+}
+html{
+	background: url('img9.jpg') no-repeat;/*colocar imagen de fondo*/
+	min-height: 100px;/*ocupacion del tamaño de la img*/
+	background-size: cover; 
+}

@@ -1,0 +1,46 @@
+.banner{
+	width: 550px;/*anchp de la imagen*/
+	height: 600px;/*largo de la imagen*/
+	border: 5px solid pink;/*tamaño del border , color del border*/
+	margin: auto;
+
+	background-size: 100% 100%;/*ocupacion de la imagen*/
+
+	animation: banner 10s infinite;/*nombre de la clase,tiempo de paso ala imagen,infino del banner*/
+	animation-direction: alternate;
+}
+
+@keyframes banner{
+	0%, 12%{
+		background-image: url(img12.jpg);/*primera imagen*/
+		opacity: 1.5;/*opasidad de la img*/
+	}
+13%,25%{/*los espacios de cada img*/
+background-image: url(img13.jpg);/*segunda img*/
+	opacity: 1.5;/*opasidad de img*/
+}
+26%, 38%{
+	background-image: url(img14.jpg);/*segunda img*/
+	opacity: 1.5;/*opasidad de img*/
+}
+39%, 51%{/*el segundo espacio*/
+	background-image: url(img15.jpg);/*segunda img*/
+	opacity: 1.5;/*opasidad de img*/
+}
+52%,64%{
+	/*opacidad*/
+	background-image: url(img16.jpg);/*ultima img*/
+	opacity: 1.5;
+}
+65%, 77%{
+		background-image: url(img20.jpg);/*primera imagen*/
+		opacity: 1.5;/*opasidad de la img*/
+	}
+78%,90%{/*los espacios de cada img*/
+background-image: url(img18.jpg);/*segunda img*/
+	opacity: 1.5;/*opasidad de img*/
+}
+91%, 100%{
+	background-image: url(img19.jpg);/*segunda img*/
+	opacity: 1.5;/*opasidad de img*/
+}

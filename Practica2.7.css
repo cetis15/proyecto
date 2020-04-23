@@ -1,0 +1,32 @@
+.banner{
+	width: 550px;/*anchp de la imagen*/
+	height: 300px;/*largo de la imagen*/
+	border: 5px solid blue;/*tamaño del border , color del border*/
+	margin: auto;
+
+	background-size: 100% 100%;/*ocupacion de la imagen*/
+
+	animation: banner 8s infinite;/*nombre de la clase,tiempo de paso ala imagen,infino del banner*/
+	animation-direction: alternate;
+}
+
+@keyframes banner{
+	0%, 30%{
+		background-image: url(img7.jpg);/*primera imagen*/
+		opacity: 1.5;/*opasidad de la img*/
+	}
+31%,34%{/*los espacios de cada img*/
+opacity: 0.1;
+}
+35%, 65%{
+	background-image: url(img6.jpg);/*segunda img*/
+	opacity: 1.5;/*opasidad de img*/
+}
+66%, 69%{/*el segundo espacio*/
+	opacity: 0.1;
+}
+70%,100%{
+	opacity: 1.5;/*opacidad*/
+	background-image: url(img5.jpg);/*ultima img*/
+}
+}

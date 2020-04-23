@@ -1,0 +1,57 @@
+*{ /*selector universal*/
+	margin: 0;
+	padding: 0;
+}
+#contenedor{/*selector de ID*/
+	width: 1200px;/*ancho*/
+	height: 1000px;/*larfo*/
+margin: 0.5em auto;/*margen*/
+padding: 0.5em;/*relleno*/
+}
+#header{/*selector de id*/
+	height: 15%;
+	background: #F8E0E6;/*color de fondo*/
+	border-radius: 1em;/*para bordes redondos*/
+	margin: 1em;
+}
+#nav{/*selector de id*/
+height: 10%;
+background: #F8E0F7;/*color de fondo*/
+border-radius: 1em;/*borde*/
+margin: 1em;
+}
+#contenido{/*selector de id*/
+	height: 53%;
+
+	margin: 1em;
+}
+#footer{/*selector de id*/
+#footer{
+	height: 15%;/*alto*/
+	background: #F5ECCE;/*color*/
+	border-radius: 1em;/*borde*/
+	margin: 1em;
+}
+#section{/*selector id*/
+	height: 95%;
+	width: 71%;
+	background: #BCF5A9;
+	border-radius: 1em;
+	float: left;/*posicion izquierda*/
+	margin: 0.5em;
+}
+#aside{/*selector id*/
+	height: 95%;
+	width: 25%;
+	background: #F8E0E6;
+	border-radius: 1em;
+	float: right;/*derecha*/
+	margin: 0.5em;
+}
+.articulo{/*selector clase*/
+	width: 96%;
+	height: 20%;
+	background: #E0E0F8;
+	margin: 1em;
+	border-radius: 1em;
+}
